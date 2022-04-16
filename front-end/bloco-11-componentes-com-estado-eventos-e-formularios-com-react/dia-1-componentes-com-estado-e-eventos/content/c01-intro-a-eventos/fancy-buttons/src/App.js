@@ -42,6 +42,7 @@
             <button onClick={ handleButtonOne }>Botão 1</button>
             <button onClick={ handleButtonTwo }>Botão 2</button>
             <button onClick={ handleButtonThree }>Botão 3</button>
+            <button onClick={ handleButtonThree }>Botão 4</button>
           </div>
         );
       }
