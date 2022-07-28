@@ -1,6 +1,6 @@
-const recebe = require('./exercise-01.js');
+const math = require('./exercise-01.js');
 
-const result = recebe.recebeParams(1, 2, 3);
+const result = math.doMath(1, 2, 3);
 console.log(result);
 
 
@@ -8,13 +8,15 @@ console.log(result);
 const getRandomNumber = () => { return Math.random() * 100 + 1; }
 
 
-function main() {
-  // console.log(getRandomNumber());
-  const result = recebe.recebeParams(
+function callDoMath() {
+  
+  // forma 1
+  const result = math.doMath(
     getRandomNumber(),
     getRandomNumber(),
     getRandomNumber());
 
+  // forma 2
   const randomNumbers = Array.from({ length: 3 }).map(getRandomNumber);
   console.log(randomNumbers);
 
@@ -23,8 +25,8 @@ function main() {
 }
 
 // Não funciona
-// recebe.recebeParams(...main)
+// math.mathParams(...callDoMath)
 //   .then((result) => console.log(result))
 //   .catch((err) => console.error(err.message));
 
-main();
+callDoMath();
