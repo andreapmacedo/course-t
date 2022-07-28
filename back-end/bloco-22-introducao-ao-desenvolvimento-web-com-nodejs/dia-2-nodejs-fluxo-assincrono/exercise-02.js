@@ -22,4 +22,9 @@ function main() {
 
 }
 
+// Não funciona
+// recebe.recebeParams(...main)
+//   .then((result) => console.log(result))
+//   .catch((err) => console.error(err.message));
+
 main();
