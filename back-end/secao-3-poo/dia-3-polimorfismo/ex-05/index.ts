@@ -16,6 +16,7 @@ console.log(marta);
 console.log(joao);
 console.log(lucio);
 
+
 // deve retornar erro
 //const invalidTeacherSalary = new Teacher('Marta da Silva', new Date('1980/03/30'), 2000, math);
 
