@@ -10,4 +10,4 @@ class Pessoa:
             self.liquidificador = 
             
 pessoa_cozinheira = Pessoa("Jacquin", 1000)
-pessoa_cozinheira.comprar_liquidificador(liquidificador_vermelho)            
+# pessoa_cozinheira.comprar_liquidificador(liquidificador_vermelho)            
