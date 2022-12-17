@@ -2,6 +2,7 @@
 
 
 #### configurando o ambiente
+https://docs.python.org/pt-br/3/tutorial/venv.html
 
 ```bash
 python3 -m venv .venv
