@@ -1,6 +1,10 @@
 # coder-python3
 
 
+#### documentation
+https://docs.python.org/3/library/functions.html#isinstance
+
+
 #### configurando o ambiente
 https://docs.python.org/pt-br/3/tutorial/venv.html
 
