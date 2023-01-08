@@ -1,7 +1,6 @@
 class Classe:
     atributo_da_classe = 1
 
-
 objeto_1 = Classe()
 objeto_2 = Classe()
 

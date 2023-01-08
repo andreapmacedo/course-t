@@ -1,5 +1,5 @@
 import pytest
-from ex_v1 import is_odd, divide
+from codigo import is_odd, divide
 
 
 def test_is_odd_when_number_is_odd_returns_true():
