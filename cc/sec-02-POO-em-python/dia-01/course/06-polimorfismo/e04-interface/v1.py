@@ -1,3 +1,21 @@
+from abc import ABC, abstractmethod
+
+
+class Database(ABC):
+    @abstractmethod
+    def execute(self, query):
+        ...
+
+class MongoDatabase(Database):
+    def execute(self, query):
+        print(f"executando query '{query}' no mongo")
+
+
+class MySQLDatabase(Database):
+    def execute(self, query):
+        print(f"executando query '{query}' no mysql")
+
+
 def minha_func(database): # repare que o d é minúsculo
     if isinstance(database, Database):
         database.execute("query qualquer")
