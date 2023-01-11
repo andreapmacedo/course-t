@@ -11,3 +11,9 @@ python3 -m pytest tests/test_read.py -vv
 pytohn3 src/pokemon_read.py
 pytohn3 src/pokemon_insights.py
 ```
+
+
+#### testando 
+```sh
+python3 -m pytest tests/test_sorting.py -vv
+```
