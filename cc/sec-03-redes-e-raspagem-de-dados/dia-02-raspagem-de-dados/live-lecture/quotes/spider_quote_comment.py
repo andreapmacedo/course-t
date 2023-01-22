@@ -18,7 +18,7 @@ def extract_quotes(content: str) -> list:
     for quote in selector.css("div.quote"):
         text = quote.css("span.text::text").get()
         author = quote.css("small.author::text").get()
-        tags = quote.css("a.tag::text").getall()
+        tags = quote.css("a.tag::text").getall() # getall() returns a list
         quotes.append(
             {
                 "text": text,
@@ -46,8 +46,11 @@ if __name__ == "__main__":
     page_content = fetch_content("https://quotes.toscrape.com/")
     quotes = extract_quotes(page_content)
     # quotes = get_all_quotes()
-    print(quotes)
-    # print(len(quotes))
+    # print(quotes)
+    print(len(quotes))
     # print(quotes[0])
     # print(quotes[0]["tags"])
-    print(quotes["text"])
+    # print(quotes[0]["text"])
+    # for quote in quotes:
+    #     print(quote["text"])
+    

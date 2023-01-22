@@ -27,3 +27,9 @@ python3 -m pip install pytest
 ```bash
 python3 -m pytest --version
 ``` 
+
+- Executando os scripts
+```sh
+pytohn3 src/pokemon_read.py
+pytohn3 src/pokemon_insights.py
+```
