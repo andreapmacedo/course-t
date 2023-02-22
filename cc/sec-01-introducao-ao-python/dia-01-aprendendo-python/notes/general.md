@@ -1,8 +1,20 @@
-Não é possível alterar elementos de uma tupla
-ex:
-tupla = (1, 2, 3)
-tupla[0] = 4
-# TypeError: 'tuple' object does not support item assignment
+
+---
+sequência(list, tuple, range);
+conjuntos(set, frozenset);
+mapeamento(dict);
+sequências binárias(bytes, bytearray, memoryview).
+
+
+###### Listas
+###### Listas são estruturas de dados que armazenam valores.
+###### Listas são mutáveis.
+###### Listas são representadas por colchetes [].
+###### Listas são iteráveis.
+###### Listas são indexáveis.
+###### Listas são heterogêneos.
+###### Listas são ordenadas a partir da versão 3.7 do Python.
+###### Listas são desordenadas a partir da versão 3.7 do Python.
 
 ---
 
@@ -41,16 +53,6 @@ tupla[0] = 4
 ###### Conjuntos são desordenados a partir da versão 3.7 do Python.
 
 ---
-
-# Listas
-# Listas são estruturas de dados que armazenam valores.
-# Listas são mutáveis.
-# Listas são representadas por colchetes [].
-# Listas são iteráveis.
-# Listas são indexáveis.
-# Listas são heterogêneos.
-# Listas são ordenadas a partir da versão 3.7 do Python.
-# Listas são desordenadas a partir da versão 3.7 do Python.
 
 G-cp
 

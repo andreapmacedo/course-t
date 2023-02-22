@@ -1,3 +1,5 @@
+# %%
+salary = 10000
 position = ""
 if salary <= 2000:
     position = "estagiário"
@@ -11,6 +13,7 @@ else:
     position = "líder"
 
 
+# %%
 key = "id"
 from_to = {
     "id": "identifier",
@@ -18,3 +21,4 @@ from_to = {
     "lastName": "last_name",
 }
 from_to[key]
+# %%

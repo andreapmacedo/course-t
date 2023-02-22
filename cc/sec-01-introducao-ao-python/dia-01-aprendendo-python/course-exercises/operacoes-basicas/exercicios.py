@@ -47,3 +47,32 @@ print(cost)
 
 
 # %%
+trybe_course = ["Introdução", "Front-end", "Back-end"]
+
+#Exercício 5: Adicione o elemento “Ciência da Computação” à lista.
+
+trybe_course.append("Ciência da Computação")
+
+#Exercício 6: Acesse e altere o primeiro elemento da lista para “Fundamentos”.
+
+trybe_course[0] = "Fundamentos"
+print(trybe_course)
+
+# %%
+info = {
+  "personagem": "Margarida",
+  "origem": "Pato Donald",
+  "nota": "Namorada do personagem principal nos quadrinhos do Pato Donald",
+}
+# Exercício 8: Insira no objeto uma nova propriedade com o nome de chave “recorrente” e o valor “Sim”. Em seguida, imprima o objeto no console.
+
+info["recorrente"] = "Sim"
+print(info)
+
+# xercício 9: Remova a propriedade cuja chave é “origem” e imprima o objeto no console.
+
+del info["origem"]
+print(info)
+
+
+# %%
