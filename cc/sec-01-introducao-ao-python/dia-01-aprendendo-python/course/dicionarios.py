@@ -82,6 +82,20 @@ dict2 = {'d': 4, 'e': 5, 'f': 6}
 for key1, key2 in zip(dict1, dict2):
     print(key1, dict1[key1], key2, dict2[key2])
 
+# you can also use dictionary comprehensions to iterate over a dictionary in a concise and expressive way. Here are some examples:
+# %%
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+squared_dict = {key: value**2 for key, value in my_dict.items()}
+print(squared_dict)
 
+# %%
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+filtered_dict = {key: value for key, value in my_dict.items() if value > 1}
+print(filtered_dict)
+
+# %%
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+reversed_dict = {value: key for key, value in my_dict.items()}
+print(reversed_dict)
 
 # %%
