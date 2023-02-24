@@ -1,3 +1,4 @@
+# %%
 x = 5
 y = 3
 print(f"{x} / {y} = {x / y:.2f}")  # saída: 5 / 3 = 1.67
@@ -8,3 +9,4 @@ print(f"{x:.^3}")  # saída: ".5."
 # . é o caractere utilizado para preencher
 # ^ indica que o valor será centralizado
 # 3 são o número de caracteres exibidos
+# %%

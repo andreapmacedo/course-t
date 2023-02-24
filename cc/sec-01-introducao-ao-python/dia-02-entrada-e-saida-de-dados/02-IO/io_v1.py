@@ -1,2 +1,5 @@
+# %%
 input("Digite uma mensagem:")
 
+
+# %%
